@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Shivam Prajapati – Frontend Web Developer" />
+  <title>Shivam Prajapati | Frontend Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function() {
+    emailjs.init("88AdMgjDjF-9E1Cz9"); // 🔁 Replace with your public key
+  })();
+</script>
+
+</head>
+
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader-text">Loading...</div>
+  </div>
+
+  <!-- Navigation -->
+ <nav>
+  <span class="logo">Shivam's Portfolio</span>
+
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+
+  <!-- 🌗 Theme Toggle Button -->
+  <button id="theme-toggle" title="Toggle Theme">
+    <i class="fas fa-moon"></i>
+  </button>
+</nav>
+
+
+
+  <main>
+
+    <header>
+      <div style="text-align: center; padding: 40px 20px; background: linear-gradient(to right, #4e54c8, #8f94fb); color: white;">
+        <h1 style="font-size: 2.8em; margin-bottom: 10px;">Hello! I'm <span style="color: #ffe600">Shivam Prajapati</span></h1>
+        <p class="typing-highlight" style="font-size: 1.3em; margin-bottom: 20px;">
+          <span id="typed-text"></span><span class="cursor">|</span>
+        </p>
+        <p style="max-width: 700px; margin: 0 auto 30px auto; font-size: 1.1em; line-height: 1.6;">
+          With a keen eye for design and a strong grip on HTML, CSS, and JavaScript, I build responsive and user-centric
+          web experiences that not only look good but feel intuitive to use.
+        </p>
+        <a href="shivam_resume.pdf" download class="btn"
+          style="background: #ffe600; color: #333; padding: 10px 20px; font-weight: bold; border-radius: 6px; text-decoration: none;">Download
+          Resume</a>
+        <p style="margin-top: 15px; font-style: italic;">Turning ideas into interactive experiences ✨</p>
+        <div style="margin-top: 30px; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+          <img src="images/header.jpg" alt="Coding illustration"
+            style="max-width: 250px; width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+          <img src="images/header1.jpg" alt="Code workspace"
+            style="max-width: 250px; width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+        </div>
+      </div>
+    </header>
+
+    <section id="about" data-aos="fade-up">
+      <h2 class="section-title">About Me</h2>
+      <div style="text-align: center; margin-bottom: 30px;">
+        <img src="images/shivam.jpg" alt="Shivam Prajapati" class="about-avatar" />
+        <p class="avatar-caption">Shivam Prajapati – Frontend Developer</p>
+      </div>
+      <p>Hello! I'm Shivam, a creative and detail-oriented Frontend Web Developer with a passion for building responsive, interactive, and user-friendly web applications.</p>
+      <p>With hands-on experience in modern frontend technologies and real-world projects like an Amazon clone, I strive to implement the latest trends in web design and development.</p>
+    </section>
+
+    <section id="projects" data-aos="fade-up">
+      <h2 class="section-title">Projects</h2>
+      <p style="font-size: 0.9em; color: #666;">Projects that demonstrate my skills and creativity in frontend development.</p>
+<div class="project" data-aos="zoom-in">
+  <h3><i class="fas fa-code"></i> Amazon Clone</h3>
+  <p>A basic layout clone of Amazon built using HTML and CSS to replicate its homepage UI.</p>
+
+  <div class="project-details">
+    <span class="project-tech">HTML</span>
+    <span class="project-tech">CSS</span>
+  </div>
+
+  <div class="project-links">
+    <a href="https://github.com/shivamgithub/amazon-clone" target="_blank">
+      <i class="fab fa-github"></i> Code
+    </a>
+    <a href="https://shivamgithub.github.io/amazon-clone/" target="_blank">
+      <i class="fas fa-external-link-alt"></i> Live
+    </a>
+  </div>
+</div>
+
+
+      <div class="project" data-aos="zoom-in">
+        <h3><i class="fas fa-laptop-code"></i> Personal Portfolio</h3>
+        <p>This portfolio itself is a project showcasing my frontend skills using HTML, CSS, and JavaScript.</p>
+        <div class="project-details">
+          <span class="project-tech">HTML</span>
+          <span class="project-tech">CSS</span>
+          <span class="project-tech">JavaScript</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/yourusername/personal-portfolio" target="_blank"><i class="fab fa-github"></i> Code</a>
+          <a href="https://yourusername.github.io/personal-portfolio/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+        </div>
+      </div>
+
+      <div class="project" data-aos="zoom-in">
+        <h3><i class="fas fa-spinner"></i> Coming Soon</h3>
+        <p>Currently working on a new interactive project. Stay tuned!</p>
+      </div>
+    </section>
+
+    <section id="skills" data-aos="fade-up">
+      <h2 class="section-title">Skills & Tools</h2>
+      <p style="margin-bottom: 20px; font-size: 1.1em;">Here are the technologies and tools I'm proficient with:</p>
+      <div class="skills-grid" data-aos="zoom-in">
+        <div class="skill"><i class="fab fa-html5"></i> HTML</div>
+        <div class="skill"><i class="fab fa-css3-alt"></i> CSS</div>
+        <div class="skill"><i class="fab fa-js-square"></i> JavaScript</div>
+        <div class="skill"><i class="fab fa-react"></i> React</div>
+        <div class="skill"><i class="fab fa-git-alt"></i> Git</div>
+        <div class="skill"><i class="fab fa-github"></i> GitHub</div>
+      </div>
+    </section>
+
+    <section id="contact" data-aos="fade-right">
+      <h2 class="section-title">Contact</h2>
+      <p>I’d love to connect! Feel free to reach out for collaborations, freelance work, or just a friendly hello.</p>
+      <div class="contact-container">
+
+      <form id="contact-form">
+  <input type="text" name="from_name" placeholder="Your Name" required />
+  <input type="email" name="from_email" placeholder="Your Email" required />
+  <textarea name="message" placeholder="Your Message" required></textarea>
+  <button type="submit">Send Message</button>
+</form>
+
+
+        <h3 class="social-heading">Quick Connect</h3>
+        <div class="social-icons">
+          <a href="https://github.com/shivamgithub" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/shivam-prajapati-9985bb371?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B4ruPzsKgRnOYjBjsSVj4ww%3D%3D" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:shivamprajapatiofficial870@gmail.com"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.instagram.com/cute_dancer_shivam?igsh=empoandqNXQ4bXAx" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/share/14DbWU97KRH/" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" data-aos="fade-up">
+      <h2 class="section-title">Testimonials</h2>
+      <div class="testimonial">
+        <p>"Shivam is a dedicated and talented frontend developer who delivers clean and professional work. His attention to detail and design makes him a great asset to any team."</p>
+        <span class="client-name">– Previous Client</span>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Made with ❤ by Shivam Prajapati</p>
+    <p style="font-size: 0.9em;">&copy; 2025 All rights reserved</p>
+  </footer>
+
+  <a href="#" class="back-to-top" title="Back to Top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <div id="scroll-progress"></div>
+
+  <!-- JS Files -->
+  <script src="script.js"></script>
+  <script>
+    AOS.init({ duration: 800, once: true });
+  </script>
+</body>
+</html>
